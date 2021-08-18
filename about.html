@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bayern Munchen</title>
+    <script
+      src="https://kit.fontawesome.com/ffd7654945.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="">
+        <a href="index.html"><img src="images/bayernLogo.png" alt="" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fas fa-times" onclick="HideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="">GAME TIME</a></li>
+            <li><a href="">TROPHY ROOM</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!------ About Us content ------>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest football fan group</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+            repellendus nobis consectetur magni odio quidem. Aut, vero? Eos
+            dicta quasi a, rerum doloremque enim mollitia earum modi laboriosam
+            voluptatem reiciendis laudantium quam, repellat quos doloribus
+            quibusdam magnam consequatur aut vero molestiae cumque incidunt
+            deleniti. Excepturi ratione deserunt inventore sed, quos quasi est
+            ea et optio illum nemo facere odio. Alias?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            laborum atque distinctio repudiandae nisi non quisquam vero illo aut
+            ut rerum eum necessitatibus eveniet pariatur ea vel rem mollitia
+            voluptas tempore temporibus, corrupti incidunt ipsum? Totam ea
+            recusandae, ratione a enim, quisquam itaque voluptate veniam ad
+            doloribus placeat asperiores ipsum optio nostrum architecto
+            excepturi? Cupiditate!
+          </p>
+          <a href="" class="btn red-btn">EXPLORE NOW</a>
+        </div>
+
+        <div class="about-col">
+          <img src="images/AboutImg.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus fugit
+        voluptates sint sit quod facilis<br />aliquam repellat, repellendus
+        inventore quibusdam debitis voluptatum quisquam minima! Illum.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made with <i class="far fa-heart"></i> by MM</p>
+    </section>
+    <!-- JavaScript fot Toggle menu -->
+    <script>
+      var navLinks = document.getElementById("nav-links");
+
+      function ShowMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function HideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
